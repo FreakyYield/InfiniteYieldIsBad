@@ -1,9 +1,6 @@
 -- Monstrum's Gui to Lua\n-- Version: 3.2
 
 -- Instances:
-if game.Players.LocalPlayer.Name=="almightyloaf_z" then
-  game.Players.LocalPlayer:Kick("freaky yield logger is executed rn so im saving u you arent getting logged only kicked")
-else
 	local GSQTDb = getexecutorname()
 	if  GSQTDb=="Xeno" or "Solara" then 
 
@@ -149,4 +146,4 @@ end end
 coroutine.wrap(RCDLNTA_script)()
 	else
 		game.Players.LocalPlayer:Kick("Infinite Yield only works on Xeno/Solara!")
-	end end
+	end 
