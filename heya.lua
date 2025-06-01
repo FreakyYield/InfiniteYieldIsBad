@@ -1,8 +1,4 @@
-for i, v in game:GetDescendants() do
-    if v:IsA("ScreenGui") then
-        v:Destroy()
-    end
-end
+
 print("Infinite Yield")
 --[[
 
