@@ -176,7 +176,8 @@ local function TGCXCF_fake_script() -- bigdih.LocalScript
 			script.Parent.Parent.Cmdbar.Input.Text="Please do not bypass the linkvertise."
 			script.Parent.Parent.Cmdbar.Input.TextColor3=Color3.new(154, 0, 0)
 			local s=Instance.new("Message",workspace)
-			s.Text="o \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you did not bypass, please join our support server \nfor a free key (must show proof): https://discord.gg/sgVdHRbZkm \nLink has been copied to clipboard"
+				print("bypass detected")
+			s.Text="o \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you did not bypass, please join our support server \nfor a free key (must show proof): https://discord.gg/sgVdHRbZkm \nLink has been copied to clipboard"
 			setclipboard("https://discord.gg/sgVdHRbZkm")
 			task.wait(0.5)
 			script.Parent.Parent.Cmdbar.Input.Text=""
