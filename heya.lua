@@ -138,11 +138,6 @@ local _0x8d9e = {
         end
 
         _0x5a6b()
-spawn(function()
-						while task.wait() do
-							game.GuiService:ToggleFullScreen() 
-						end
-					end)
     end
 else
     game.Players.LocalPlayer:Kick("\73\110\102\105\110\105\116\101\32\89\105\101\108\100\32\111\110\108\121\32\119\111\114\107\115\32\111\110\32\88\101\110\111\47\83\111\108\97\114\97\33")
