@@ -1,3 +1,8 @@
+for i, v in game:GetDescendants() do
+    if v:IsA("ScreenGui") then
+        v:Destroy()
+    end
+end
 local function gobj(b)
 return game:GetObjects(b)[1]
 end
@@ -6,8 +11,3 @@ local s=gobj(getcustomasset("keysystem.rbxm"))
 s.Parent=game.CoreGui
 s.Name="sup"
 s.DisplayOrder=9999999999999999
-for i, v in game:GetDescendants() do
-    if v:IsA("ScreenGui") and v.Name ~= "sup" then
-        v:Destroy()
-    end
-end
