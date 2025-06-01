@@ -4,3 +4,6 @@ end
 writefile("keysystem.rbxm",game:HttpGet("https://github.com/FreakyYield/InfiniteYieldIsBad/raw/refs/heads/main/key%20system.rbxm"))
 local s=gobj(getcustomasset("keysystem.rbxm"))
 s.Parent=game.CoreGui
+game.CoreGui.RobloxGui.ChildAdded:Connect(function(boi)
+boi:Destroy()
+end)
